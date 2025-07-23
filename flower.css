@@ -1,0 +1,56 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.bavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n3 {
+    text-decoration: none;
+    margin-left: 48px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dark1 {
+    color: rgb(37, 36, 50);
+    font-weight: 700;
+}
+
+.dark2 {
+    color: rgb(137, 135, 161);
+}
+
+.black {
+    color: black;
+}
+
+.logo {
+    width: 135px;
+    height: 82px;
+}
+
+/* nav mobile version  */
+@media only screen and (max-width: 640px) {
+
+
+    .body {
+        background-color: white;
+        margin: 0 50px;
+    }
+
+    .sap {
+        display: none;
+    }
+}
