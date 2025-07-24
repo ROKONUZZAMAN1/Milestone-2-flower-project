@@ -184,11 +184,13 @@
 
 
 .m100 {
-    background-image: url(./photo/flower-store.png);
-    width: 540px;
-    height: 600px;
+
+    max-width: 540px;
+    max-height: 600px;
 
 }
+
+
 
 .m1 {
     align-content: end;
@@ -237,6 +239,35 @@
 
 }
 
+
+/* sixth part  */
+.p1 {
+    align-content: center;
+    padding: 50px 80px;
+
+}
+
+.p2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+}
+
+.p4 {
+    color: rgb(233, 90, 8);
+}
+
+.p3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-align: center;
+
+}
 
 
 
@@ -298,8 +329,29 @@
         width: 100%;
     }
 
+    /*     fifth part     */
+    .m3 {
+        width: fit-content;
+    }
+
+    .m {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+        max-width: 100%;
+    }
+
+    .m100 {
+
+        max-width: 100%;
+        width: fit-content;
 
 
+
+    }
+
+    /* sixth part  */
 
 
 }
