@@ -85,21 +85,25 @@
 .f4 {
     color: rgb(0, 0, 0);
     z-index: 2;
+
 }
 
 
 /* third part  */
 
-.t1 {
-    text-align: center;
-    max-width: 888px;
-    margin-top: 100px;
+
+
+.t2 {
+    margin-top: 80px;
+    align-items: center;
 }
 
 .t3 {
     color: rgb(233, 90, 8);
     font-size: 3.12rem;
     font-weight: 700;
+    text-align: center;
+
 }
 
 .t3-1 {
@@ -107,12 +111,70 @@
 }
 
 .t4 {
+
+
     font-size: 1.1rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 700px;
+
+    margin: 0 auto;
+
+
 }
 
 /* Fort part  */
+
+.foto-flex {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.u1 {
+
+    max-width: 270px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.u2 {
+    align-content: center;
+}
+
+.u3 {
+    /* width: 132px; */
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+.u4 {
+    font-weight: 900;
+    z-index: 2;
+
+}
+
+.u5 {
+    background-color: rgb(233, 90, 8);
+    padding: 20px 80px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.u6 {
+    width: fit-content;
+}
 
 
 
@@ -146,6 +208,23 @@
     .f2 {
         padding: 50px;
     }
+
+    /* third part  */
+
+    /* forth part  */
+
+    .foto-flex {
+
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .u6 {
+
+        width: 100%;
+    }
+
 
 
 
