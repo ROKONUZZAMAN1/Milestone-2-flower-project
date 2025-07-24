@@ -5,8 +5,17 @@
     font-style: normal;
 }
 
+.font-nato {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -14,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .n3 {
@@ -37,13 +47,53 @@
 }
 
 .logo {
-    width: 135px;
+    max-width: 135px;
     height: 82px;
 }
 
-/* nav mobile version  */
-@media only screen and (max-width: 640px) {
+/* second part  */
 
+.f1 {
+    display: flex;
+    margin-top: 150px;
+
+}
+
+.f2 {
+    align-content: flex-end;
+    display: block;
+
+}
+
+.f5 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.f4,
+.f3 {
+    font-size: 4.06rem;
+    font-weight: 700;
+    margin: 0;
+    color: rgb(233, 90, 8);
+    z-index: 1;
+
+}
+
+.f4 {
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+
+
+/* nav mobile version  */
+
+
+@media only screen and (max-width: 640px) {
+    .container {}
 
     .body {
         background-color: white;
@@ -53,4 +103,20 @@
     .sap {
         display: none;
     }
+
+    /* second part  */
+
+    .f1 {
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+
+    }
+
+    .f2 {
+        padding: 50px;
+    }
+
+
+
+
 }
