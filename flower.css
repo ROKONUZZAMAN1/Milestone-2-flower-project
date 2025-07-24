@@ -100,6 +100,10 @@
         margin: 0 50px;
     }
 
+    .navbar {
+        justify-content: space-between;
+    }
+
     .sap {
         display: none;
     }
