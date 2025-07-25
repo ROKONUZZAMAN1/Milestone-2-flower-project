@@ -269,7 +269,123 @@
 
 }
 
+/* seventh part    */
 
+
+.sp-font {
+    color: rgb(255, 255, 255);
+    width: 700;
+    font-size: 1.25rem;
+}
+
+.sp-font1 {
+    color: rgb(255, 255, 255);
+    width: 700;
+    font-size: 2.5rem;
+}
+
+.sp-font2 {
+    color: rgb(255, 255, 255);
+    width: 600;
+    font-size: 1rem;
+}
+
+.sp-font3 {
+    color: rgb(255, 255, 255);
+    width: 600;
+    font-size: 1.75rem;
+}
+
+/* 1 */
+.v2 {
+
+    position: relative;
+}
+
+.v402 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/* 2 */
+.v3 {
+    position: relative;
+}
+
+.v406 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/* 3 */
+.v4 {
+    position: relative;
+}
+
+.v409 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+
+
+.v1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+    .v1 {
+        margin-top: 50px;
+    }
+
+    .v100 {
+        gap: 22px;
+    }
+
+    .v200 {
+
+        margin-bottom: 22px;
+
+        border-radius: 15px;
+    }
+
+    .v300 {
+        border-radius: 15px;
+    }
+
+    .v400 {
+        border-radius: 15px;
+    }
+
+    /* .v200 {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.v300 {
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+.v400 {
+    max-width: 200%;
+
+    height: auto; */
+
+
+}
+
+/*      eight part     */
 
 
 /*           mobile version           */
@@ -332,26 +448,64 @@
     /*     fifth part     */
     .m3 {
         width: fit-content;
+
+        margin-right: 25px;
+
     }
 
     .m {
 
-        margin-left: 20px;
-        flex-direction: column;
 
-        max-width: 100%;
+        flex-direction: column;
+        margin: 0px 100px;
+
+
     }
 
     .m100 {
 
-        max-width: 100%;
+
+
         width: fit-content;
 
 
 
     }
 
-    /* sixth part  */
+    /* seventh part  */
+    .v1 {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: auto;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .v2 {
+        max-width: 100%;
+        max-width: 420px;
+        height: auto;
+
+    }
+
+    .v3 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+    }
+
+    .v4 {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+
+    }
+
+    .v400 {
+        width: 367px;
+    }
+
 
 
 }
